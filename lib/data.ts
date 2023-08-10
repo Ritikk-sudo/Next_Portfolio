@@ -2,9 +2,14 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import project1 from "@/public/project1.png";
+import project2 from "@/public/project2.png";
+import project3 from "@/public/project3.png";
+import Project4 from "@/public/project4.png";
+import { Link } from "@react-email/components";
+
+
+
 
 export const links = [
   {
@@ -33,57 +38,82 @@ export const links = [
   },
 ] as const;
 
+
+// *******👉Experience Data********
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Under Graduation",
+    location: "Delhi, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am under Graduate and pursuing BCA from 'Maharshi Dayanand University'",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021-2024",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Delhi, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I have not any official experience but i wokred or learning Front-End from 1 year",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - present",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Delhi, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    "I have not any official experience but i wokred on many projects and learning Full-Stack from 1 year",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - present",
   },
 ] as const;
 
+// *******👉Project Data********
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "My Another Portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this project and completed in under a week. This is a Portfolio Website with animations",
+    tags: ["HTML", "CSS", "MongoDB", "Express.Js", "Node.Js"],
+    imageUrl: project1,
+    link: "View Live",
+    siteLink: "http://codewithritik.tech/",
+    
   },
   {
-    title: "rmtDev",
+    title: "Education Website Project",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "This is a Education based Project. It is a website for Educational Institutions. It has all necessary features, from 'About to Contact form Features'. And I worked as a Full-Stack-Developer on this project.",
+    tags: ["HTML", "CSS", "Express.Js", "Mongo Db"],
+    imageUrl: project2,
+    link: "View Live",
+    siteLink: "https://bhartiacademy.com/",
+    
   },
   {
-    title: "Word Analytics",
+    title: "Count-Down Timer",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "It is a simple Count-Down Timer. Which gives you a remember of an Announcement",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: project3,
+    link: "View Live",
+    siteLink: "https://ritikk-sudo.github.io/CountDown-Timer/",
+    
+  },
+  {
+    title: "Color-Generator With Color Code",
+    description:
+    "It is a simplistic Color Generator with Color Code. Which gives you a random color code with automatically copy on clipboard features.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: Project4,
+    link: "View Live",
+    siteLink: "https://color-generator-cyan.vercel.app/",
+    
+  
   },
 ] as const;
 
+
+// *******👉Skills Data********
 export const skillsData = [
   "HTML",
   "CSS",
@@ -94,14 +124,7 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
