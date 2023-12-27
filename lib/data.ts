@@ -8,9 +8,6 @@ import project3 from "@/public/project3.png";
 import Project4 from "@/public/project4.png";
 import { Link } from "@react-email/components";
 
-
-
-
 export const links = [
   {
     name: "Home",
@@ -36,8 +33,11 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+  {
+    name: "Blogs",
+    hash: "/blogs",
+  },
 ] as const;
-
 
 // *******👉Experience Data********
 export const experiencesData = [
@@ -61,7 +61,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Delhi, India",
     description:
-    "I have not any official experience but i wokred on many projects and learning Full-Stack from 1 year",
+      "I have not any official experience but i wokred on many projects and learning Full-Stack from 1 year",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
@@ -77,7 +77,6 @@ export const projectsData = [
     imageUrl: project1,
     link: "View Live",
     siteLink: "http://codewithritik.tech/",
-    
   },
   {
     title: "Education Website Project",
@@ -87,7 +86,6 @@ export const projectsData = [
     imageUrl: project2,
     link: "View Live",
     siteLink: "https://bhartiacademy.com/",
-    
   },
   {
     title: "Count-Down Timer",
@@ -97,21 +95,17 @@ export const projectsData = [
     imageUrl: project3,
     link: "View Live",
     siteLink: "https://ritikk-sudo.github.io/CountDown-Timer/",
-    
   },
   {
     title: "Color-Generator With Color Code",
     description:
-    "It is a simplistic Color Generator with Color Code. Which gives you a random color code with automatically copy on clipboard features.",
+      "It is a simplistic Color Generator with Color Code. Which gives you a random color code with automatically copy on clipboard features.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: Project4,
     link: "View Live",
     siteLink: "https://color-generator-cyan.vercel.app/",
-    
-  
   },
 ] as const;
-
 
 // *******👉Skills Data********
 export const skillsData = [
