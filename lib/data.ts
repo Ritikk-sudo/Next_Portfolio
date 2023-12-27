@@ -35,7 +35,7 @@ export const links = [
   },
   {
     name: "Blogs",
-    hash: "/blogs",
+    hash: "https://next-blog-omega-flax.vercel.app/",
   },
 ] as const;
 
