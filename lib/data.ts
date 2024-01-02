@@ -70,13 +70,13 @@ export const experiencesData = [
 // *******👉Project Data********
 export const projectsData = [
   {
-    title: "My Another Portfolio",
+    title: "My Blog Website",
     description:
-      "I worked as a full-stack developer on this project and completed in under a week. This is a Portfolio Website with animations",
-    tags: ["HTML", "CSS", "MongoDB", "Express.Js", "Node.Js"],
+      "This is a blog website using next.js, Tailwind CSS and Sanity headless CMS",
+    tags: [ "Tailwind CSS",  "Next.Js", "Node.Js", "Sanity CMS"],
     imageUrl: project1,
     link: "View Live",
-    siteLink: "http://codewithritik.tech/",
+    siteLink: "https://next-blog-omega-flax.vercel.app/",
   },
   {
     title: "Education Website Project",
