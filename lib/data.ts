@@ -5,7 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import project1 from "@/public/project1.png";
 import project2 from "@/public/project2.png";
 import project3 from "@/public/project3.png";
-import Project4 from "@/public/project4.png";
+import project4 from "@/public/project4.png";
+import project5 from "@/public/project5.png";
+import project6 from "@/public/project6.png";
 import { Link } from "@react-email/components";
 
 export const links = [
@@ -88,11 +90,29 @@ export const projectsData = [
     siteLink: "https://bhartiacademy.com/",
   },
   {
+    title: "FlickoPedia",
+    description:
+      "This is a Movie recommendation based Project. It suggest top rated movies and all abouth that movie. And I worked as a Full-Stack-Developer on this project.",
+    tags: ["TailwindCSS", "Next.Js", "Mongo Db"],
+    imageUrl: project3,
+    link: "View Live",
+    siteLink: "https://flickopedia.vercel.app/",
+  },
+  {
+    title: "Realtime Chat Web App",
+    description:
+      "This is a real-time chat app based Project. We can chat with register on this with anyone from anywhere. And I worked as a Full-Stack-Developer on this project.",
+    tags: ["TailwindCSS", "Next.Js", "Mongo Db"],
+    imageUrl: project4,
+    link: "View Live",
+    siteLink: "https://realtime-chat-lac.vercel.app/",
+  },
+  {
     title: "Count-Down Timer",
     description:
       "It is a simple Count-Down Timer. Which gives you a remember of an Announcement",
     tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: project3,
+    imageUrl: project5,
     link: "View Live",
     siteLink: "https://ritikk-sudo.github.io/CountDown-Timer/",
   },
@@ -101,7 +121,7 @@ export const projectsData = [
     description:
       "It is a simplistic Color Generator with Color Code. Which gives you a random color code with automatically copy on clipboard features.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: Project4,
+    imageUrl: project6,
     link: "View Live",
     siteLink: "https://color-generator-cyan.vercel.app/",
   },
